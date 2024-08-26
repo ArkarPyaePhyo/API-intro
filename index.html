@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <button id="fetch-btn" class="m-10 bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        Fetch Task
+      </button>
+      
+
+      <div id="table" class="hidden relative overflow-x-auto">
+        <table class="max-w-sm text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+            <thead class=" text-xs text-white  uppercase  bg-gray-700 dark:bg-gray-700 dark:text-gray-400">
+                <tr>
+                    <th scope="col" class="px-6 py-3">
+                        Product name
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        Price
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        Category
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        Image
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        count
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="table-template">
+              
+            </tbody>  
+        </table>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
